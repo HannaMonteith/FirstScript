@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Mushrooms</title>
+    </head>
+    <body>
+        <h1>Mushrooms I've found while hiking</h1>
+        <ul>
+            <li>Witch's hat</li>
+                <img src="images/Screen Shot 2024-09-04 at 10.22.45.png"
+                alt="Witch's hat" />
+        </ul>
+    </body>
+</html>

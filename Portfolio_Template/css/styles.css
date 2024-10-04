@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    color: #2C2C2C; /* Dark Gray for text */
+    background-color: #accbf7; /* Light Gray background */
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color:#accbf7; /* White for section backgrounds */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05); /* Light shadow for a modern touch */
+}
+
+/* Text Styling */
+h1, h2, h3 {
+    font-size: 2.2em; /* Larger font size */
+    font-weight: 700; /* Bold text */
+    color: #fffbfb; /* Dark Gray for headers */
+}
+
+p {
+    font-size: 1.5em; /* Larger text for paragraphs */
+    color: #2C2C2C;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #2C2C2C; /* Dark Gray for navbar */
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* White for nav links */
+    text-decoration: none;
+    font-size: 1.8em; /* Larger font size for navigation */
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Accent Blue for hover effect */
+}
+
+/* Introduction Section */
+#intro {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #accbf7; /* White background for a clean look */
+    color: #047e13;
+    padding: 60px 20px;
+}
+
+.intro-image {
+    flex: 1;
+    padding-top:80px;
+    margin: auto;
+    width: 85%;
+}
+
+.intro-image img {
+    width: 50%; /* Smaller image size */
+    height: auto;
+    margin:auto;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+/* Responsive for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    
+    #intro {
+        flex-direction: column;
+    }
+
+    .intro-image img {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+}
+
+/* Project Sections */
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #accbf7; /* White background */
+}
+
+.project-image-left, .project-image-right {
+    flex: 1;
+}
+
+.project img {
+    width: 30rem; /* Smaller images */
+    height: auto;
+}
+
+.project-text {
+    flex: 1;
+    color: #2C2C2C; /* Dark Gray text for projects */
+}
+
+/* Contact Section */
+#contact {
+    background-color: #FFFFFF; /* White background */
+    color: #2C2C2C;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#contact input[type="email"] {
+    padding: 10px;
+    font-size: 1.5em; /* Larger input text */
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5em; /* Larger button text */
+    background-color: #007BFF; /* Accent Blue for button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #0056b3; /* Darker Blue on hover */
+}
+
+/* Footer Section */
+footer {
+    background-color: #2C2C2C; /* Dark Gray */
+    color: white !important;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5em;
+}
+
+footer p {
+    color: white;
+}
